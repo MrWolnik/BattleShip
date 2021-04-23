@@ -30,9 +30,9 @@ public class  GameMenu extends Application {
     public GameMenuPriv gameMenuPriv;
 
     public void start(Stage primaryStage) throws Exception {
-        Pane root = new Pane();
+        Pane root = new Pane(); // test
         root.setPrefSize(863, 486);
-
+//sdasdas
         InputStream is = Files.newInputStream(Paths.get("images/logo.jpg"));
         Image img = new Image(is);
         is.close();
